@@ -128,3 +128,32 @@ h2 {
 @media (max-width: 504px) {
      
 }
+.skills-list {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+.skill-item {
+    background-color: #f0f0f0;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 1em;
+    color: black;
+    transition: 0.3s ease;
+    box-shadow: #000dff 0px 0px 5px;
+}
+.skill-item:hover {
+    background-color: #000dff;
+    color: white;
+    text-shadow: 0 0 0 10px rgba(255,255,255,0.8), 0 0 0 20px rgba(255,255,255,0.6), 0 0 0 30px rgba(255,255,255,0.4);
+    transform: translateY(2px);
+    box-shadow:rgb(207, 214, 247) 0px 0px 10px, rgb(207, 214, 247) 0px 0px 20px, rgb(207, 214, 247) 0px 0px 30px;
+}
+.nav {
+    background: linear-gradient(135deg, #6b73ff 0%, #000dff 100%);
+    color: white;
+    padding: 15px 20px;
+    box-shadow: rgb(19, 18, 18) 0px 0px 10px, rgb(19,18,18) 0px 0px 20px, rgb(19,18,18) 0px 0px 30px;
+    border-radius: 0.375rem;
+}
