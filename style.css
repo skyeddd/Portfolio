@@ -1,5 +1,6 @@
 .body {
     color: rgb(33,33,33);
+    background-color: rgb(7, 7, 7);
 
 }
 h1 {
@@ -41,21 +42,23 @@ h2 {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: 0.3s ease;
+    box-shadow: #000dff 5px 5px 15px;
 }
 .project-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 10px 18px  #000dff;
+    box-shadow: 5px 10px 18px  #000dff;
 }
 .section-heading {
     font-size: 2.5em;
     margin-bottom: 20px;
-    color: black;
+    color: white;
     font-weight: bold;
+    text-shadow: #000dff 0px 0px 5px, #6b73ff 0px 0px 10px, #6b73ff 0px 0px 15px;
 }
 .main-heading {
     font-size: (5em, 7vw, 7em);
     margin-bottom: 1px;
-    color: white;
+    color: #f9f9f9;
     font-weight: bold;
     text-shadow: 0 0 10px rgba(255,255,255,0.8), 0 0 20px rgba(255,255,255,0.6), 0 0 30px rgba(255,255,255,0.4);
     
@@ -65,6 +68,7 @@ h2 {
     color: white;
     padding: 40px 15px;
     text-align: center;
+    box-shadow: #000dff 0px 0px 20px, #6b73ff 0px 0px 20px;
 }
 .hero-subheading {
     font-size: 1.5em;
@@ -81,8 +85,8 @@ h2 {
     margin: 0 auto;
     font-size: 1.3em;
     line-height: 1.6;
-    color: black; 
-    text-shadow: 0 0 5px rgba(0,0,0,0.1), 0 0 10px rgba(0,0,0,0.1), 0 0 15px rgba(0,0,0,0.1);
+    color: rgb(255, 255, 255); 
+    text-shadow: #000dff 0px 0px 5px, #6b73ff 0px 0px 10px, #6b73ff 0px 0px 15px;
 }
 .projects-button {
     display: inline-block;
@@ -118,14 +122,14 @@ h2 {
     font-size: 1em;
     color: black;
     transition: 0.3s ease;
-    box-shadow: #000dff 0px 0px 5px;
+    box-shadow: #000dff 0px 2px 10px;
 }
 .skill-item:hover {
     background-color: #000dff;
     color: white;
     text-shadow: 0 0 0 10px rgba(255,255,255,0.8), 0 0 0 20px rgba(255,255,255,0.6), 0 0 0 30px rgba(255,255,255,0.4);
     transform: translateY(2px);
-    box-shadow:rgb(207, 214, 247) 0px 0px 10px, rgb(207, 214, 247) 0px 0px 20px, rgb(207, 214, 247) 0px 0px 30px;
+    box-shadow: #000dff 0px 4px 15px, #6b73ff 0px 2px 16px;
 }
 .nav {
     background: linear-gradient(135deg, #6b73ff 0%, #000dff 100%);
@@ -174,15 +178,16 @@ h2 {
     margin-right: auto;
     color: white;
     padding: 10px 20px;
-    font-size: 16px;
+    font-size: 1.5rem;
     border: none;
     cursor: pointer;
+    text-shadow: white 0px 0px 5px, white 0px 0px 5px;
     }
 .name {
     margin-right: auto;
     color: white;
     padding: 10px 20px;
-    text-shadow: #6b73ff 0px 0px 5px, #000dff 0px 0px 10px, #000dff 0px 0px 15px;
+    text-shadow: white 0px 0px 5px, white 0px 0px 5px;
     }
 
 /* Timeline Styles */
@@ -406,18 +411,20 @@ h2 {
         border-color: transparent white transparent transparent;
     }
 }
-.contact-info {
+#contact-info {
     margin-top: 20px;
     font-size: 1.2em;
-    color: black;
-    text-shadow: 0 0 5px rgba(0,0,0,0.1), 0 0 10px rgba(0,0,0,0.1), 0 0 15px rgba(0,0,0,0.1);
+    color: white;
     text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+    text-shadow: #000dff 0px 0px 5px, white 0px 0px 10px, white 0px 0px 15px;
 }
-.section-content {
+#section-content {
     max-width: 800px;
     margin: 0 auto;
     font-size: 1.2em;
     line-height: 1.6;
-    color: black; 
-    text-shadow: 0 0 5px rgba(0,0,0,0.1), 0 0 10px rgba(0,0,0,0.1), 0 0 15px rgba(0,0,0,0.1);
+    color: white; 
+    text-align: center;
 }
