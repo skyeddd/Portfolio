@@ -467,7 +467,7 @@ h2 {
     transition: opacity 0.5s ease;
 }
 
-.item1, .item2, .item3, .item4, .item5, .item6, .item7, .item8 {
+.item1, .item2, .item3, .item4, .item5, .item6, .item7, .item8, .item9, .item10, .item11, .item12, .item13, .item14 {
     position: absolute;
     width: 25px;
     height: 25px;
@@ -481,15 +481,21 @@ h2 {
     animation: blueGlowPulse 5s ease-in-out infinite;
 }
 
-/* Random positions around the viewport */
-.item1 { top: 15%; left: 8%; animation-delay: 0s; }
-.item2 { top: 25%; right: 12%; animation-delay: 0.8s; }
-.item3 { top: 45%; left: 15%; animation-delay: 1.6s; }
-.item4 { top: 35%; right: 8%; animation-delay: 2.4s; }
-.item5 { top: 65%; left: 10%; animation-delay: 3.2s; }
-.item6 { top: 75%; right: 15%; animation-delay: 4.0s; }
-.item7 { top: 55%; left: 20%; animation-delay: 4.8s; }
-.item8 { top: 85%; right: 10%; animation-delay: 5.6s; }
+/* Naturally random positions around the viewport */
+.item1 { top: 12%; left: 6%; animation-delay: 0s; }
+.item2 { top: 28%; right: 18%; animation-delay: 0.8s; }
+.item3 { top: 42%; left: 45%; animation-delay: 1.6s; }
+.item4 { top: 38%; right: 4%; animation-delay: 2.4s; }
+.item5 { top: 68%; left: 14%; animation-delay: 3.2s; }
+.item6 { top: 72%; right: 22%; animation-delay: 4.0s; }
+.item7 { top: 58%; left: 52%; animation-delay: 4.8s; }
+.item8 { top: 88%; right: 8%; animation-delay: 5.6s; }
+.item9 { top: 18%; right: 8%; animation-delay: 6.4s; }
+.item10 { top: 52%; right: 28%; animation-delay: 7.2s; }
+.item11 { top: 78%; left: 6%; animation-delay: 8.0s; }
+.item12 { top: 32%; left: 38%; animation-delay: 8.8s; }
+.item13 { top: 62%; right: 12%; animation-delay: 9.6s; }
+.item14 { top: 22%; left: 55%; animation-delay: 10.4s; }
 
 @keyframes blueGlowPulse {
     0%, 100% {
