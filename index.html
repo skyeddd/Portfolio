@@ -1,94 +1,60 @@
 <!DOCTYPE html>
-<html lang="en" class="smooth-scroll">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Marc Venter-Portfolio</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Marc Venter - Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
-<body class="body bg-gray-100">
+<body>
 <header class="header">
     <nav class="nav">
-      <div class="min-w-screen">
-        <div class="flex h-14 md:h-16 min-w-screen items-center justify-between">
-          <div class="flex items-center space-x-4 py-2 max-w-screen">
-            <a href="#" class="name text-gray-200 font-bold text-xl md:text-2xl lg:text-3xl xl:text-4xl ml-4">Marc Venter</a>
-          </div>
-          <div class="dropdown">
-          
-  <button class="dropbtn">Menu</button>
-  <div class="dropdown-content">
-    <a href="#about">About</a>
-    <a href="#projects">Projects</a>
-    <a href="#skills">Skills</a> 
-    <a href="#education">Education</a>
-    <a href="#contact">Contact</a>
-     </div>
-   </div>
+        <a href="#" class="name">Marc Venter</a>
+        <div class="dropdown">
+            <button class="dropbtn">Menu</button>
+            <div class="dropdown-content">
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a> 
+                <a href="#education">Education</a>
+                <a href="#contact">Contact</a>
+            </div>
         </div>
-      </div>     
- </nav>
+    </nav>
 </header>
   <section class="hero-section">
     <h1 class="main-heading">Marc Venter</h1>
-    <p class="hero-subheading">
-      Aspiring Full-Stack Developer | ITPROG26 Student | Problem Solver</p>
-      <p class="projects-button"><a href="#projects" >Projects</a></p>
+    <p class="hero-subheading">Aspiring Full-Stack Developer | ITPROG26 Student | Problem Solver</p>
+    <a href="#projects" class="projects-button">Projects</a>
   </section>
   <section class="section-wrapper" id="about">
     <h2 class="section-heading">About Me</h2>
-    <p class="about-content text-center">
-      Hi, Im Marc Venter, an aspiring full-stack developer currently enrolled in the ITPROG26 course.
-      I'm passionate about coding and problem-solving and am eager to build a career in web development. 
-      I have a strong foundation in HTML and CSS, and I'm excited to expand my skills and work on more projects.
-    </p>
-    <aside class="moving_decoration">
-      <div class="item1"></div>
-      <div class="item2"></div>
-      <div class="item3"></div>
-      <div class="item4"></div>
-      <div class="item5"></div>
-      <div class="item6"></div>
-      <div class="item7"></div>
-      <div class="item8"></div>
-      <div class="item9"></div>
-      <div class="item10"></div>
-      <div class="item11"></div>
-      <div class="item12"></div>
-      <div class="item13"></div>
-      <div class="item14"></div>
-    </aside>
-    <aside class="profile-picture">
-      <img src="https://avatars.githubusercontent.com/u/122644441?v=4" alt="Profile Picture" class="rounded-full w-48 h-48 mx-auto">
-    </aside>
-    
+    <p class="about-content">Hi, I'm Marc Venter, an aspiring full-stack developer currently enrolled in the ITPROG26 course. I'm passionate about coding and problem-solving and am eager to build a career in web development. I have a strong foundation in HTML and CSS, and I'm excited to expand my skills and work on more projects.</p>
+    <img src="https://avatars.githubusercontent.com/u/122644441?v=4" alt="Profile Picture" class="profile-picture">
   </section>
-  <section id="projects" class="section-wrapper text-center"> 
+  <section id="projects" class="section-wrapper"> 
     <h2 class="section-heading">Projects</h2>
     <div class="projects-container">
       <div class="project-card">
-        <h3 class="text-xl font-bold text-gray-800 text-center mb-2">Project One</h3>
-        <p class="text-gray-600 mx-auto text-center">CS50 Scratch certificate</p>
+        <h3>Project One</h3>
+        <p>CS50 Scratch certificate</p>
       </div>
       <div class="project-card">
-        <h3 class="text-xl font-bold text-gray-800 text-center mb-2">Project Two</h3>
-        <p class="text-gray-600 mx-auto text-center">Web Development Project</p>
+        <h3>Project Two</h3>
+        <p>Web Development Project</p>
       </div>
     </div>
   </section>
   <section id="skills" class="section-wrapper">
     <h2 class="section-heading">Skills</h2>
-    <p class="section-content">
-      <div class="skills-list">
-        <span class="skill-item">HTML</span>
-        <span class="skill-item">CSS</span>
-        <span class="skill-item">Tailwind CSS</span>
-      </div>
-    </p>
+    <div class="skills-list">
+      <span class="skill-item">HTML</span>
+      <span class="skill-item">CSS</span>
+      <span class="skill-item">Tailwind CSS</span>
+    </div>
   </section>
   <section id="education" class="section-wrapper">
     <h2 class="section-heading">Education</h2>
@@ -109,21 +75,26 @@
   </section>
   <section id="contact" class="section-wrapper">
     <h2 class="section-heading">Contact</h2>
-     <div id="section-content">
-       <div class="contact-info">
-        <div id="contact-info">
-          Links
-        </div>
-         <a href="mailto:marcdanielventer@gmail.com">marcdanielventer@gmail.com</a>
-       </div>
+    <div class="contact-section">
+      <h3>Links</h3>
+      <a href="mailto:marcdanielventer@gmail.com">marcdanielventer@gmail.com</a>
       <div class="social-links">
-        <div>
-          <a href="https://www.linkedin.com/in/marc-venter-9b1a4b1b8/" target="_blank">LinkedIn</a>
-        </div>
-        <div>
-          <a href="https://github.com/skyeddd" target="_blank">GitHub</a>
-        </div>
+        <a href="https://www.linkedin.com/in/marc-venter-9b1a4b1b8/" target="_blank">LinkedIn</a>
+        <a href="https://github.com/skyeddd" target="_blank">GitHub</a>
       </div>
     </div>
   </section>
+  <div class="moving_decoration">
+    <span class="item1"></span>
+    <span class="item2"></span>
+    <span class="item3"></span>
+    <span class="item4"></span>
+    <span class="item5"></span>
+    <span class="item6"></span>
+    <span class="item7"></span>
+    <span class="item8"></span>
+    <span class="item9"></span>
+    <span class="item10"></span>
+  </div>
+</body>
 </html>
